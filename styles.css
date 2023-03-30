@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #e6e6e6;
+    padding: 15px;
+    text-align: center;
+    color: #29353c;
+}
+
+.container {
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.gallery_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.gallery_image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img_1 {
+    background-image: url('../img/img1.jpg');
+}
+#img_2 {
+    background-image: url('../img/img2.jpg');
+}
+#img_3 {
+    background-image: url('../img/img3.jpg');
+}
+#img_4 {
+    background-image: url('../img/img4.jpg');
+}
+#img_5 {
+    background-image: url('../img/img5.jpg');
+}
+#img_6 {
+    background-image: url('../img/img6.jpg');
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #44576d;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:  #e6e6e6;
+    color: #44576d;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #e6e6e6;
+    padding: 30px;
+    text-align: center;
+    color: #29353c;
+}
